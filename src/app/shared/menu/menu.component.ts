@@ -29,14 +29,14 @@ export class MenuComponent implements OnInit {
           {
             label: 'No Comunes',
             icon: 'pi pi-globe',
-            routerLink: 'no-comunes',
+            routerLink: 'nocomunes',
           },
         ],
       },
       {
         label: 'Pipe Personalizados',
         icon: 'pi pi-cog',
-        items:[]
+        routerLink: 'ordenar'
       },
     ];
   }
